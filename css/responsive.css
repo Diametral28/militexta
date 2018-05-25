@@ -1,0 +1,221 @@
+/*
+    Theme Responsive Design
+*/
+
+@media (max-width: 1024px) {
+	.about_content {
+        padding: 0;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .header_area:before{
+        width: 25%;
+    }
+    ul.nav > li > a {
+        font-size: 12px;
+        line-height: 70px;
+        padding: 0 10px;
+    }
+    .feature_img:before{
+        width: 35%;
+    }
+    .skills_items .skill_item:nth-child(4){
+        margin-bottom: 30px;
+    }
+	.blog_item .blog_thumb,
+    .blog_item .blog_content{
+        width: 100%;
+        float: none;
+    }
+    .blog_item .blog_content {
+        margin: 0;
+    }
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	
+    
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+	   font-size: 12px;
+	   line-height: 22px;
+    }
+    .padding{
+        padding: 60px 0;
+    }
+    .pb-60{
+        padding-bottom: 35px;
+    }
+    h1{
+	   font-size: 20px;
+    }
+    .section_heading.align-left{
+        text-align: center!important;
+    }
+    h2{
+        font-size: 20px;
+    }
+     h3{
+	   font-size: 16px;
+    }
+    .header_area,
+    .header_area:before{
+		height: 60px;
+	}
+    .header_area:before {
+        width: 35%;
+    }
+	.navbar-header .brand {
+		display: block;
+		line-height: 60px;
+        padding-left: 20px;
+	}
+    .navbar-toggle{
+        padding: 14px 10px;
+    }
+    .navbar-collapse {
+	  background-color: #181818;
+	  border-top: medium none;
+	  box-shadow: none;
+	  margin-top: 0px;
+	  overflow-x: visible;
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+	ul.nav{
+        margin: 0;
+        overflow: hidden;
+    }
+	ul.nav > li > a{
+        font-size: 14px;
+        color: #fff;
+		line-height: 60px;
+		padding: 0 30px;
+	}
+    ul.nav > li > a:hover,
+    ul.nav > li.active > a {
+        background-color: #ffc327;
+        color: #fff;
+    }
+    .hero_section,
+    .hero_inner{
+        height: 480px;
+    }
+    .hero_content h2.sm_title {
+        font-size: 14px;
+        margin: 0 0 10px;
+    }
+    .hero_content h1.big_title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+	.hero_content h1.big_title br{
+		display: none;
+	}
+    .hero_content p {
+        margin: 15px 0;
+    }
+    .hero_content p br{
+        display: none;
+    }
+    .hexa_btn {
+        font-size: 14px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+    .feature_img:before{
+        display: none;
+    }
+    .feature_wrap{
+        margin: 0;
+    }
+    .feature_items{
+        padding: 0;
+    }
+    .portfolio_bg_img:before{
+        display: none;
+    }
+	.skills_items {
+		padding-left: 15px;
+	}
+    .blog_item{
+        margin-bottom: 30px;
+    }
+    .blog_items .blog_item:last-child{
+        margin-bottom: 0;
+    }
+    .blog_item .blog_content {
+        margin: 0;
+    }
+    .contact_form #name{
+        margin-bottom: 15px;
+    }
+    .footer_section{
+        text-align: center;
+    }
+    .footer_section:before{
+        display: none;
+    }
+    .copyright{
+        color: #333;
+        margin: 15px;
+    }
+    .footer_social{
+        text-align: center;
+    }
+    .scroll-to-top{
+        display: none !important;
+    }
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 520px CSS ---- */
+@media all and (max-width: 520px) {
+    .section_heading p br{
+        display: none;
+    }
+	.header_area:before{
+		width: 50%;
+	}
+    .col-xs-6{
+        float: none;
+        width: 100%;
+    }
+    .skills_items {
+        padding: 0 10px;
+    }
+    .skills_items .skill_item:nth-child(5){
+        margin-bottom: 30px;
+    }
+	.cta_content h2 {
+		font-size: 30px;
+	}
+
+}
+/* ---- End of max-width 520px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+    
+}
+/* ---- End of max-width 380px CSS ---- */
