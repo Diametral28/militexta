@@ -414,7 +414,7 @@ ul.nav > li.active > a{
    Hero Section
    ========================================================================== */
 .hero_section{
-    background-image: url('../img/hero-bg.jpg');
+    background-image: url('../img/slider/vaporti2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -686,7 +686,7 @@ ul.nav > li.active > a{
    Call To Action
    ========================================================================== */
 .cta_section{
-    background-image: url(../img/cta-bg.jpg);
+    background-image: url(../img/slider/vaportislider.png);
     background-attachment: fixed;
     padding: 160px 0;
     background-repeat: no-repeat;
@@ -767,7 +767,7 @@ ul.nav > li.active > a{
    Contact Section
    ========================================================================== */
 .contact_section{
-    background-image: url(../img/contact-bg.jpg);
+    background-image: url(../img/slider/contacto.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left top;

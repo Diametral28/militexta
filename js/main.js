@@ -28,9 +28,9 @@ $(window).on('load', function() {
     Typed js Active
 =========================================================================*/
     $(".typed").typed({
-        strings: ["Michel.", "Designer.", "Creative."],
+        strings: ["De que estas hecho Iztapalapa.", "Que hay detrás de ese barrio que nunca se rinde.", "Que tienes debajo de ese corazón."],
         loop: true,
-        typeSpeed: 150
+        typeSpeed: 20
     });
              
 /*=========================================================================
