@@ -26,6 +26,15 @@
     ========================================================================== */
 
 	@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto');
+
+    @font-face {
+      font-family: Corbel Bold; 
+      src: url(css/fuentes/Corbel Bold.ttf) format('truetype');
+    }
+    @font-face {
+      font-family: corbel; 
+      src: url(css/fuentes/CORBEL.ttf) format('truetype');
+    }
 	
 /*  ==========================================================================
     1.0 Common Styles
@@ -45,7 +54,7 @@ body{
     overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'corbel', sans-serif;
 	letter-spacing: -1px;
 	color: #333;
 }
@@ -339,7 +348,7 @@ a,a:hover, .owl-prev, .owl-next, .form-control, .form-control:hover, .contact_bt
     background-color: #ffc327;
     display: block;
     content: '';
-    width: 20%;
+    width: 30%;
     height: 100%;
     position: absolute;
     left: 0;
@@ -363,12 +372,12 @@ a,a:hover, .owl-prev, .owl-next, .form-control, .form-control:hover, .contact_bt
 	padding: 0;
 }
 .navbar-header .brand{
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'corbel', sans-serif;
     font-size: 30px;
     line-height: 70px;
     font-weight: 900;
     letter-spacing: -2px;
-    color: #fff;
+    color: #706b6b;
 }
 .scrollActive .navbar-header .brand{
     line-height: 60px;
@@ -662,6 +671,7 @@ ul.nav > li.active > a{
    ========================================================================== */
 .testimonial_section{
     background-color: #f6f6f6;
+    /*background*/-image: url("../img/slider/frases.jpg");
 }
 .testimonial_items{}
 .testi_item{
@@ -685,14 +695,16 @@ ul.nav > li.active > a{
     margin-bottom: 20px;
 }
 .testi_item p{
-    font-size: 13px;
+    font-size: 32px;
     line-height: 28px;
     margin-top: 15px;
+    color: #000;
 }
 .testi_item h4{
     font-size: 16px;
     font-weight: 700;
     margin: 0 0 3px;
+    color: #000;
 }
 /* Rating */
 .testi_item .ratings{
@@ -830,18 +842,18 @@ ul.nav > li.active > a{
    Contact Section
    ========================================================================== */
 .contact_section{
-    background-image: url(../img/slider/contacto.jpg);
-    background-repeat: no-repeat;
+   background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left top;
     -webkit-background-size: cover;
     background-size: cover;
+    background-color: #fbd93f;
 }
 .contact_section h2{
-    color: #fff;
+    color: #000;
 }
 .contact_section p{
-    color: #ddd;
+    color: #393636;
 }
 .contact_form{}
 .contact_form .form-control{
@@ -861,7 +873,11 @@ ul.nav > li.active > a{
     border: none;
 }
 .contact_form .default_btn{
+    color: #000;
     border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.71);
+    -moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.71);
+    box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.71);
 }
 
 #ajax_form .alert{

@@ -78,21 +78,13 @@ $(window).on('load', function() {
   var testiCarousel = $('#testi_carousel');
   testiCarousel.owlCarousel({
         loop: true,
-        autoplay: false,
+        autoplay: true,
         smartSpeed: 800,
         margin: 20,
         responsive : {
             // breakpoint from 0 up
             0 : {
                 items: 1
-            },
-            // breakpoint from 480 up
-            520 : {
-                items: 1
-            },
-            // breakpoint from 768 up
-            768 : {
-                items: 3
             }
         }
     });
