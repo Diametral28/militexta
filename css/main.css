@@ -451,8 +451,21 @@ ul.nav > li.active > a{
 .hero_content p{
     margin: 20px 0 30px;
 } */
-.hero_section{
-    background-image: url('../img/slider/logo milagors.png');
+@media screen and (max-width: 991px){
+    .hero_section{
+    background-image: url('../img/slider/mili.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+}
+@media screen and (min-width: 992px){
+
+    .hero_section{
+    background-image: url('../img/slider/mili.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -463,6 +476,8 @@ ul.nav > li.active > a{
     position: relative;
     z-index: 1;
 }
+}
+
 
 .hero_section .video_bg{
     position: absolute;
@@ -759,16 +774,48 @@ ul.nav > li.active > a{
 /* ==========================================================================
    Call To Action
    ========================================================================== */
-.cta_section{
-    background-image: url(../img/slider/vaportislider.png);
-    background-attachment: fixed;
-    padding: 160px 0;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    width: 100%;
-}   
+   @media screen and (max-width: 320px){
+    .cta_section{
+        background-image: url(../img/slider/vaportislider-sm320.png);
+        /*padding: 160px 0;*/
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+    } 
+    }
+   @media screen and (min-width: 321px) and (max-width: 450px){
+    .cta_section{
+        background-image: url(../img/slider/vaportislider-sm450.png);
+        /*padding: 160px 0;*/
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+    } 
+    }
+   @media screen and (min-width: 451px) and (max-width: 991px){
+    .cta_section{
+        background-image: url(../img/slider/vaportislider-sm990.png);
+        /*padding: 160px 0;*/
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+    }   
+    }
+    @media screen and (min-width: 992px){
+
+        .cta_section{
+            background-image: url(../img/slider/vaportislider.png);
+            background-attachment: fixed;
+            padding: 160px 0;
+            background-repeat: no-repeat;
+            background-position: center center;
+            -webkit-background-size: cover;
+            background-size: cover;
+            width: 100%;
+        }   
+    }
+    }
+
 .cta_content{}
 .cta_content h2{
 	font-size: 40px;
